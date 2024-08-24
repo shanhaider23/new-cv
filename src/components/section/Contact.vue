@@ -1,30 +1,28 @@
 <template>
-  <div class="contact">
-    <!-- <p>
+	<div class="contact">
+		<!-- <p>
       I&apos;m currently living in London, though I'm open to opportunities
       across the globe.
     </p> -->
-    <p>
-      Email me at <a href="mailto:mike@berman.xyz">mike@berman.xyz</a>.
-    </p>
-  </div>
+		<p>Email me at <a href="mailto:shan.haider@gmail.com">shan.haider@gmail.com</a>.</p>
+	</div>
 </template>
 
 <script>
 export default {
-  name: 'Contact',
-};
+	name: 'Contact',
+}
 </script>
 
 <style scoped lang="scss">
 .contact {
-  a {
-    color: inherit;
-    text-decoration: none;
+	a {
+		color: inherit;
+		text-decoration: none;
 
-    &:hover {
-      text-decoration: underline;
-    }
-  }
+		&:hover {
+			text-decoration: underline;
+		}
+	}
 }
 </style>
