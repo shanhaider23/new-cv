@@ -117,7 +117,7 @@ ol {
   left: 0;
   position: fixed;
   top: 0;
-  width: 50vw;
+  width: 30vw;
 }
 
 .content {
@@ -125,7 +125,7 @@ ol {
 }
 
 .image + .content {
-  padding-left: 50vw;
+  padding-left: 30vw;
 
   @media print {
     padding-left: 0;

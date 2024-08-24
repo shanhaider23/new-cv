@@ -1,12 +1,13 @@
 {
-  "name": "berman.xyz",
+  "name": "my-node-app",
   "version": "1.0.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "deploy": "vue-cli-service s3-deploy"
+    "deploy": "vue-cli-service s3-deploy",
+    "start": "vue-cli-service serve"  
   },
   "dependencies": {
     "vue": "^2.5.17",
