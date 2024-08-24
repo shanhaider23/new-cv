@@ -46,10 +46,10 @@
 			<li>Worked with a UI/UX designer and the CTO to plan, write, and debug the web application.</li>
 			<li>Integrated the app with REST APIs for Google Maps, social media logins, payment processors, and other services.</li>
 
-			<div data-v-5230a472="" class="expirience-job__projects">
+			<div class="expirience-job__projects">
 				<a href="https://www.dianox.com/" target="_blank" rel="noopener noreferrer"
 					><span>
-						<svg data-v-5230a472="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" style="width: 1em; margin-right: 0.25em">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" style="width: 1em; margin-right: 0.25em">
 							<path
 								fill="currentColor"
 								d="M715.648 625.152 670.4 579.904l90.496-90.56c75.008-74.944 85.12-186.368 22.656-248.896-62.528-62.464-173.952-52.352-248.96 22.656L444.16 353.6l-45.248-45.248 90.496-90.496c100.032-99.968 251.968-110.08 339.456-22.656 87.488 87.488 77.312 239.424-22.656 339.456l-90.496 90.496zm-90.496 90.496-90.496 90.496C434.624 906.112 282.688 916.224 195.2 828.8c-87.488-87.488-77.312-239.424 22.656-339.456l90.496-90.496 45.248 45.248-90.496 90.56c-75.008 74.944-85.12 186.368-22.656 248.896 62.528 62.464 173.952 52.352 248.96-22.656l90.496-90.496 45.248 45.248zm0-362.048 45.248 45.248L398.848 670.4 353.6 625.152 625.152 353.6z"
@@ -79,44 +79,88 @@
 				<div class="expirience-job__item">HTML</div>
 			</div>
 		</Company>
-		<Company name="StageMe" contract :from="new Date(2015, 1)" :to="new Date(2016, 1)">
-			<li>Workshopped and built customer-facing website</li>
-			<li>Made use of modern technologies including gulp, CoffeeScript, SCSS, and CSS flexbox</li>
-		</Company>
-		<Company name="Westfield Labs" contract :from="new Date(2014, 10)" :to="new Date(2015, 2)">
-			<li>Contributed to the redevelopment of UK, US, and Australian websites</li>
-			<li>Worked closely with an international team, including designers &amp; developer in Australia, USA, and Argentina</li>
-		</Company>
-		<Company name="The White Agency" contract :from="new Date(2014, 7)" :to="new Date(2014, 10)">
-			<li>Developed many JS heavy webapps including a canvas beer label designer for internal use at Lion Nathan</li>
-			<li>Rebuilt White Agency website with GSAP transitions &amp; HTML5 history API</li>
-			<li>Led the introduction of a new toolchain (including Gulp, SASS, Compass, JSHint)</li>
-		</Company>
-		<Company name="Atlassian" :from="new Date(2014, 4)" :to="new Date(2014, 7)">
-			<li>Built internal tool featuring a chat bot that would help schedule company &amp; social events from within HipChat</li>
+		<Company name="The Considerate Consumer" post="Frontend Developer" contract :from="new Date(2020, 5)" :to="new Date(2021, 2)">
 			<li>
-				Despite interviewing as a front end developer, the team I joined was expecting a Java dev, so I left after it became clear I wouldn't
-				be able to be productive in my team or transfer to a more suitable team
+				Assumed critical roles in front-end development involving MERN stack and TypeScript, leading the choice to use MERN stack over
+				Squarespace, and helped utilize frameworks such as React.js to build responsive and dynamic web applications.
+			</li>
+			<li>
+				Worked with cross-functional teams to design, develop, and implement user-friendly interfaces, ensuring technical feasibility and
+				optimizing applications for maximum speed and scalability.
+			</li>
+			<li>Conducted code reviews and maintained high standards of code quality and consistency.</li>
+			<div class="expirience-job__projects">
+				<a href="https://www.considerate-consumer.com/" target="_blank" rel="noopener noreferrer"
+					><span>
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" style="width: 1em; margin-right: 0.25em">
+							<path
+								fill="currentColor"
+								d="M715.648 625.152 670.4 579.904l90.496-90.56c75.008-74.944 85.12-186.368 22.656-248.896-62.528-62.464-173.952-52.352-248.96 22.656L444.16 353.6l-45.248-45.248 90.496-90.496c100.032-99.968 251.968-110.08 339.456-22.656 87.488 87.488 77.312 239.424-22.656 339.456l-90.496 90.496zm-90.496 90.496-90.496 90.496C434.624 906.112 282.688 916.224 195.2 828.8c-87.488-87.488-77.312-239.424 22.656-339.456l90.496-90.496 45.248 45.248-90.496 90.56c-75.008 74.944-85.12 186.368-22.656 248.896 62.528 62.464 173.952 52.352 248.96-22.656l90.496-90.496 45.248 45.248zm0-362.048 45.248 45.248L398.848 670.4 353.6 625.152 625.152 353.6z"
+							></path></svg
+						>The Considerate Consumer
+					</span></a
+				>
+			</div>
+			<div class="expirience-job__list">
+				<div class="expirience-job__item">React</div>
+				<div class="expirience-job__item">Node.js</div>
+				<div class="expirience-job__item">JavaScript</div>
+				<div class="expirience-job__item">Express</div>
+				<div class="expirience-job__item">Git</div>
+				<div class="expirience-job__item">MongoDB</div>
+			</div>
+		</Company>
+		<Company name="H-Tech Supports" post="IT-Support Specialist / Field Engineer" :from="new Date(2018, 4)" :to="new Date(2020, 2)">
+			<li>
+				Provided a wide range of services from Web Development (Frontend and CMS) to IT Support like Hardware Troubleshooting, Asset
+				Management (CMDB), Imaging Windows/Mac Software Installation, deployment, Migration and Troubleshooting.
+			</li>
+			<li>
+				Hardware troubleshooting, Rack and Stack of router & switches, Networking, Data Migration, SCCM Management Remote Access using a
+				Console cable and LAN & WAN support. Level 1 & 2.
 			</li>
 		</Company>
-		<Company name="Nearmap" contract :from="new Date(2013, 5)" :to="new Date(2014, 4)">
-			<li>3 month contract with multiple extensions</li>
+		<Company name="Metro Services" post="Functional Technician/IT support" :from="new Date(2013, 8)" :to="new Date(2018, 3)">
 			<li>
-				Led a project to rebuild the company's primary product, a map browser, from the ground up in order to improve ease-of-use and reduce
-				technical debt
+				Performed equipment installation and upgrades for existing and new hardware/software at Level 1. Function check of various equipment
+				such as passenger announcement (PA) and passenger information system (PIS) communications in the Copenhagen metro trains.
 			</li>
-			<li>Worked on UX, design, and front end development</li>
-			<li>Built new sales site specifically for select industries, and rebuilt main sales site</li>
 		</Company>
-		<Company name="HotHouse" :from="new Date(2012, 7)" :to="new Date(2013, 5)">
-			<li>Lead developer (full-stack) in a project to gamify toyota.com.au in order to give away two RAV4s</li>
+		<Company name="Ellebæk Contact Network" volunteering :from="new Date(2022, 1)">
+			<li>
+				I'm currently volunteering as a front-end developer for Ellebæk Contact Network, maintaining their WordPress website, and handling
+				design and content updates.
+			</li>
+			<div data-v-5230a472="" class="expirience-job__projects">
+				<a href="https://www.ellebaek-contact.com/" target="_blank" rel="noopener noreferrer"
+					><span>
+						<svg data-v-5230a472="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" style="width: 1em; margin-right: 0.25em">
+							<path
+								fill="currentColor"
+								d="M715.648 625.152 670.4 579.904l90.496-90.56c75.008-74.944 85.12-186.368 22.656-248.896-62.528-62.464-173.952-52.352-248.96 22.656L444.16 353.6l-45.248-45.248 90.496-90.496c100.032-99.968 251.968-110.08 339.456-22.656 87.488 87.488 77.312 239.424-22.656 339.456l-90.496 90.496zm-90.496 90.496-90.496 90.496C434.624 906.112 282.688 916.224 195.2 828.8c-87.488-87.488-77.312-239.424 22.656-339.456l90.496-90.496 45.248 45.248-90.496 90.56c-75.008 74.944-85.12 186.368-22.656 248.896 62.528 62.464 173.952 52.352 248.96-22.656l90.496-90.496 45.248 45.248zm0-362.048 45.248 45.248L398.848 670.4 353.6 625.152 625.152 353.6z"
+							></path></svg
+						>Ellebæk Contact Network
+					</span></a
+				>
+			</div>
 		</Company>
-		<Company name="Corporate Interactive" :from="new Date(2012, 0)" :to="new Date(2012, 7)">
-			<li>Built over fifty new websites over the course of eight months</li>
-		</Company>
-		<Company name="Radioinfo" :from="new Date(2010, 1)" :to="new Date(2013, 4)">
-			<li>Maintained &amp; updated Django website for two years as their sole developer.</li>
-			<li>Built frontend &amp; backend of new website (featuring new design &amp; new CMS)</li>
+		<Company name="MTI Education Center" volunteering :from="new Date(2020, 4)">
+			<li>
+				I'm also currently volunteering as a front-end developer for MTI Education center, maintaining their WordPress website, and handling
+				design and content updates.
+			</li>
+			<div data-v-5230a472="" class="expirience-job__projects">
+				<a href="https://www.madinatulilm.dk/" target="_blank" rel="noopener noreferrer"
+					><span>
+						<svg data-v-5230a472="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" style="width: 1em; margin-right: 0.25em">
+							<path
+								fill="currentColor"
+								d="M715.648 625.152 670.4 579.904l90.496-90.56c75.008-74.944 85.12-186.368 22.656-248.896-62.528-62.464-173.952-52.352-248.96 22.656L444.16 353.6l-45.248-45.248 90.496-90.496c100.032-99.968 251.968-110.08 339.456-22.656 87.488 87.488 77.312 239.424-22.656 339.456l-90.496 90.496zm-90.496 90.496-90.496 90.496C434.624 906.112 282.688 916.224 195.2 828.8c-87.488-87.488-77.312-239.424 22.656-339.456l90.496-90.496 45.248 45.248-90.496 90.56c-75.008 74.944-85.12 186.368-22.656 248.896 62.528 62.464 173.952 52.352 248.96-22.656l90.496-90.496 45.248 45.248zm0-362.048 45.248 45.248L398.848 670.4 353.6 625.152 625.152 353.6z"
+							></path></svg
+						>MTI
+					</span></a
+				>
+			</div>
 		</Company>
 	</div>
 </template>

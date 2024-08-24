@@ -7,7 +7,8 @@
 			<div class="post">
 				{{ post }}
 			</div>
-			<div class="freelance" v-if="contract">Freelance</div>
+			<div class="freelance" v-if="contract">Remote</div>
+			<div class="freelance" v-if="volunteering">Volunteering</div>
 			<div class="dates">{{ formatDate(from) }} &ndash; {{ formatDate(to) }}<br /></div>
 		</div>
 		<div class="right">
@@ -24,6 +25,7 @@ export default {
 	props: {
 		name: String,
 		post: String,
+		volunteering: Boolean,
 		contract: Boolean,
 		from: Date,
 		to: Date,
