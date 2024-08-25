@@ -2,8 +2,8 @@
 	<div class="work">
 		<Company name="Render" post="Frontend Developer" :from="new Date(2022, 5)">
 			<li>
-				Utilizing Vue.js and JavaScript extensively to produce dynamic and responsive designs, leveraging the Element UI CSS framework for
-				various development efforts.
+				Utilizing Vue.js, React and JavaScript extensively to produce dynamic and responsive designs, leveraging the Element UI CSS framework
+				for various development efforts.
 			</li>
 			<li>Implement new features on SaaS software using advanced Vue.js skills.</li>
 			<li>Conducting Cypress E2E and Component testing to verify application functionalities.</li>
@@ -32,12 +32,12 @@
 				>
 			</div>
 			<div class="expirience-job__list">
+				<div class="expirience-job__item">React</div>
+				<div class="expirience-job__item">VueJS 2/3</div>
 				<div class="expirience-job__item">JavaScript</div>
 				<div class="expirience-job__item">SCSS</div>
 				<div class="expirience-job__item">HTML</div>
-				<div class="expirience-job__item">VueJS 2/3</div>
 				<div class="expirience-job__item">Gulp</div>
-				<div class="expirience-job__item">React</div>
 				<div class="expirience-job__item">Git</div>
 			</div>
 		</Company>
@@ -126,7 +126,7 @@
 				such as passenger announcement (PA) and passenger information system (PIS) communications in the Copenhagen metro trains.
 			</li>
 		</Company>
-		<Company name="Ellebæk Contact Network" volunteering :from="new Date(2022, 1)">
+		<Company name="Ellebæk Contact Network" post="Frontend Developer" volunteering :from="new Date(2022, 1)">
 			<li>
 				I'm currently volunteering as a front-end developer for Ellebæk Contact Network, maintaining their WordPress website, and handling
 				design and content updates.
@@ -144,7 +144,7 @@
 				>
 			</div>
 		</Company>
-		<Company name="MTI Education Center" volunteering :from="new Date(2020, 4)">
+		<Company name="MTI Education Center" post="Frontend Developer" volunteering :from="new Date(2020, 4)">
 			<li>
 				I'm also currently volunteering as a front-end developer for MTI Education center, maintaining their WordPress website, and handling
 				design and content updates.

@@ -3,38 +3,50 @@
 		<div class="skills">
 			<div class="col">
 				<ul>
-					<li>Frameworks</li>
+					<li>C#/.Net</li>
 					<ul>
-						<li>Vue.js</li>
-						<li>React</li>
-						<li>Next.js</li>
+						<li>Visma Denmark (Jan 2022 — May 2022)</li>
 					</ul>
-					<li>JavaScript</li>
+					<li>Full-Stack Developer</li>
 					<ul>
-						<li>ES6</li>
-						<li>TypeScript</li>
+						<li>Hack Your Future (Nov 2020 — Aug 2021 Copenhagen)</li>
 					</ul>
-				</ul>
-			</div>
-			<div class="col">
-				<ul>
-					<li>CSS</li>
+					<li>Master in Analytical Chemistry</li>
 					<ul>
-						<li>SCSS</li>
-						<li>SASS</li>
-						<li>Less</li>
+						<li>University of Oslo, Norway (Aug 2008 — Sep 2010)</li>
 					</ul>
-					<li>Design</li>
+					<li>Cypress End-to-End Testing</li>
 					<ul>
-						<li>Figma</li>
-						<li>WordPress</li>
+						<li>Completed a 6-hour course led by Maximilian Schwarzmüller.</li>
+					</ul>
+					<li>GitHub Actions - The Complete Guide</li>
+					<ul>
+						<li>Completed a 11-hour course led by Maximilian Schwarzmüller.</li>
+					</ul>
+					<li>Docker & Kubernetes: The Practical Guide [2024 Edition]</li>
+					<ul>
+						<li>Completed a 25-hour course led by Maximilian Schwarzmüller.</li>
+					</ul>
+					<li>Search Engine Optimization</li>
+					<ul>
+						<li>Completed a three-month course offered by the Ministry of Science and Technology, Pakistan.</li>
+					</ul>
+					<li>WordPress, Freelancing</li>
+					<ul>
+						<li>Completed a three-month course offered by the Ministry of Science and Technology, Pakistan.</li>
+					</ul>
+					<li>Completer IT Support Specialist Course</li>
+					<ul>
+						<li>IT Foundation, USA</li>
 					</ul>
 				</ul>
 			</div>
 		</div>
-		<p>Brøndby, Copenhagen Denmark</p>
-		<p>Email: <a href="mailto:shan.haider@gmail.com">shan.haider@gmail.com</a>.</p>
-		<p>+4591439592</p>
+		<div class="contact-info">
+			<h1>Contact</h1>
+			<p>Email: <a href="mailto:shan.haider@gmail.com">shan.haider@gmail.com</a>.</p>
+			<p>Phone: +4591439592</p>
+		</div>
 	</div>
 </template>
 
@@ -53,6 +65,9 @@ export default {
 		&:hover {
 			text-decoration: underline;
 		}
+	}
+	.contact-info {
+		margin-top: 100px;
 	}
 	.skills {
 		display: flex;
