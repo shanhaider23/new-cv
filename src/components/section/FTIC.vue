@@ -16,7 +16,7 @@
 			<div class="expirience-job__list">
 				<div class="expirience-job__item">React,</div>
 				<div class="expirience-job__item">Material UI</div>
-				<div class="expirience-job__item">irebase</div>
+				<div class="expirience-job__item">Firebase</div>
 			</div>
 		</div>
 		<div class="ftic">
