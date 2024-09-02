@@ -1,14 +1,22 @@
 <template>
 	<div class="work">
 		<Company name="Render" post="Frontend Developer" :from="new Date(2022, 5)">
+			<li>Continuously develop dynamic and responsive user interfaces using Vue.js, React, and JavaScript.</li>
+			<li>Regularly leverage the Element UI to enhance the design and functionality of ongoing projects.</li>
 			<li>
-				Utilizing Vue.js, React and JavaScript extensively to produce dynamic and responsive designs, leveraging the Element UI CSS framework
-				for various development efforts.
+				Implemented and maintain new features on SaaS software using advanced Vue.js skills, resulting in a highly intuitive and user-friendly
+				interface that consistently receives praise from client companies for enhancing user engagement and satisfaction.
 			</li>
-			<li>Implement new features on SaaS software using advanced Vue.js skills.</li>
-			<li>Conducting Cypress E2E and Component testing to verify application functionalities.</li>
-			<li>Identify and resolve errors and bugs to improve and stabilize the user experience.</li>
-			<li>Working with cross-functional teams to produce high-quality products while documenting design specifications and features</li>
+			<li>Conduct Cypress E2E and Component testing to ensure the reliability and accuracy of application functionalities.</li>
+			<li>Identify and resolve errors and bugs to enhance and stabilize the user experience.</li>
+			<li>
+				Collaborate with cross-functional teams to deliver high-quality products, including documenting design specifications and features.
+			</li>
+			<li>Participate in code and pull request reviews to ensure code quality and adherence to best practices.</li>
+			<li>
+				Work within an Agile methodology, managing tasks and tracking progress using ClickUp, and contributing to sprint planning and
+				execution.
+			</li>
 
 			<div class="expirience-job__projects">
 				<a href="https://render.dk" target="_blank"
@@ -39,6 +47,7 @@
 				<div class="expirience-job__item">HTML</div>
 				<div class="expirience-job__item">Gulp</div>
 				<div class="expirience-job__item">Git</div>
+				<div class="expirience-job__item">Cypress</div>
 			</div>
 		</Company>
 		<Company name="Dianox" post="Fullstack Developer" :from="new Date(2021, 2)" :to="new Date(2022, 5)">
@@ -81,12 +90,13 @@
 		</Company>
 		<Company name="The Considerate Consumer" post="Frontend Developer" contract :from="new Date(2020, 5)" :to="new Date(2021, 2)">
 			<li>
-				Assumed critical roles in front-end development involving MERN stack and TypeScript, leading the choice to use MERN stack over
-				Squarespace, and helped utilize frameworks such as React.js to build responsive and dynamic web applications.
+				Assumed critical roles in front-end development with the MERN stack and JavaScript, spearheading the decision to use MERN over
+				Squarespace.
 			</li>
+			<li>Leveraged frameworks like React.js to create responsive and dynamic web applications.</li>
 			<li>
-				Worked with cross-functional teams to design, develop, and implement user-friendly interfaces, ensuring technical feasibility and
-				optimizing applications for maximum speed and scalability.
+				Collaborated with cross-functional teams to design, develop, and implement user-friendly interfaces, ensuring technical feasibility
+				and optimizing applications for maximum speed and scalability.
 			</li>
 			<li>Conducted code reviews and maintained high standards of code quality and consistency.</li>
 			<div class="expirience-job__projects">
@@ -128,8 +138,8 @@
 		</Company>
 		<Company name="Ellebæk Contact Network" post="Frontend Developer" volunteering :from="new Date(2022, 1)">
 			<li>
-				I'm currently volunteering as a front-end developer for Ellebæk Contact Network, maintaining their WordPress website, and handling
-				design and content updates.
+				I'm currently volunteering as a front-end developer for Ellebæk Contact Network, maintaining and optimizing their website, resulting
+				in a 40% increase in site traffic.
 			</li>
 			<div data-v-5230a472="" class="expirience-job__projects">
 				<a href="https://www.ellebaek-contact.com/" target="_blank" rel="noopener noreferrer"
@@ -146,8 +156,8 @@
 		</Company>
 		<Company name="MTI Education Center" post="Frontend Developer" volunteering :from="new Date(2020, 4)">
 			<li>
-				I'm also currently volunteering as a front-end developer for MTI Education center, maintaining their WordPress website, and handling
-				design and content updates.
+				I'm volunteering as a front-end developer for MTI Education Center, maintaining their WordPress website, and handling design and
+				educational content updates.
 			</li>
 			<div data-v-5230a472="" class="expirience-job__projects">
 				<a href="https://www.madinatulilm.dk/" target="_blank" rel="noopener noreferrer"
@@ -158,6 +168,23 @@
 								d="M715.648 625.152 670.4 579.904l90.496-90.56c75.008-74.944 85.12-186.368 22.656-248.896-62.528-62.464-173.952-52.352-248.96 22.656L444.16 353.6l-45.248-45.248 90.496-90.496c100.032-99.968 251.968-110.08 339.456-22.656 87.488 87.488 77.312 239.424-22.656 339.456l-90.496 90.496zm-90.496 90.496-90.496 90.496C434.624 906.112 282.688 916.224 195.2 828.8c-87.488-87.488-77.312-239.424 22.656-339.456l90.496-90.496 45.248 45.248-90.496 90.56c-75.008 74.944-85.12 186.368-22.656 248.896 62.528 62.464 173.952 52.352 248.96-22.656l90.496-90.496 45.248 45.248zm0-362.048 45.248 45.248L398.848 670.4 353.6 625.152 625.152 353.6z"
 							></path></svg
 						>MTI
+					</span></a
+				>
+			</div>
+		</Company>
+		<Company name="Hack Your Future" post="Mentor" volunteering :from="new Date(2021, 9)">
+			<li>Serve as a mentor at HackYourFuture school in Denmark, providing guidance and support to students.</li>
+			<li>Review and provide feedback on student homework and code projects, ensuring they meet quality standards.</li>
+			<li>Offer mentorship and advice to help students overcome challenges and grow their skills in software development.</li>
+			<div data-v-5230a472="" class="expirience-job__projects">
+				<a href="https://www.hackyourfuture.dk/" target="_blank" rel="noopener noreferrer"
+					><span>
+						<svg data-v-5230a472="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" style="width: 1em; margin-right: 0.25em">
+							<path
+								fill="currentColor"
+								d="M715.648 625.152 670.4 579.904l90.496-90.56c75.008-74.944 85.12-186.368 22.656-248.896-62.528-62.464-173.952-52.352-248.96 22.656L444.16 353.6l-45.248-45.248 90.496-90.496c100.032-99.968 251.968-110.08 339.456-22.656 87.488 87.488 77.312 239.424-22.656 339.456l-90.496 90.496zm-90.496 90.496-90.496 90.496C434.624 906.112 282.688 916.224 195.2 828.8c-87.488-87.488-77.312-239.424 22.656-339.456l90.496-90.496 45.248 45.248-90.496 90.56c-75.008 74.944-85.12 186.368-22.656 248.896 62.528 62.464 173.952 52.352 248.96-22.656l90.496-90.496 45.248 45.248zm0-362.048 45.248 45.248L398.848 670.4 353.6 625.152 625.152 353.6z"
+							></path></svg
+						>HYF
 					</span></a
 				>
 			</div>

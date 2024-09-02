@@ -15,6 +15,7 @@
 					<ul>
 						<li>University of Oslo, Norway (Aug 2008 — Sep 2010)</li>
 					</ul>
+					<li>Online Courses</li>
 					<li>Cypress End-to-End Testing</li>
 					<ul>
 						<li>Completed a 6-hour course led by Maximilian Schwarzmüller.</li>

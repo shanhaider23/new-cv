@@ -1,64 +1,71 @@
 <template>
-	<div class="skills">
-		<div class="col">
-			<ul>
-				<li>Frameworks</li>
+	<div class="skill__wrapper">
+		<div class="skills">
+			<div class="col">
 				<ul>
-					<li>Vue.js</li>
-					<li>React</li>
-					<li>Next.js</li>
+					<li>FRONTEND DEVELOPMENT</li>
+					<ul>
+						<li>Vue.js</li>
+						<li>React</li>
+						<li>Next.js</li>
+						<li>JavaScript</li>
+						<li>ES6</li>
+						<li>TypeScript</li>
+						<li>CSS Preprocessors (SCSS, SASS, LESS)</li>
+						<li>CSS Frameworks (Bootstrap, Tailwind)</li>
+						<li>Component Libraries (Element UI, MUI, Quasar)</li>
+					</ul>
 				</ul>
-				<li>JavaScript</li>
+			</div>
+			<div class="col">
 				<ul>
-					<li>ES6</li>
-					<li>TypeScript</li>
+					<li>Backend Development</li>
+					<ul>
+						<li>Node.js, Express.js</li>
+					</ul>
 				</ul>
-			</ul>
+			</div>
 		</div>
-		<div class="col">
-			<ul>
-				<li>CSS</li>
+		<div class="skills">
+			<div class="col">
 				<ul>
-					<li>SCSS</li>
-					<li>SASS</li>
-					<li>Less</li>
+					<li>Testing</li>
+					<ul>
+						<li>Cypress End to End</li>
+						<li>Cypress Component</li>
+					</ul>
 				</ul>
-				<li>Design</li>
+			</div>
+			<div class="col">
 				<ul>
-					<li>Figma</li>
-					<li>WordPress</li>
+					<li>Database</li>
+					<ul>
+						<li>MongoDB</li>
+						<li>MySQL</li>
+						<li>Firebase</li>
+					</ul>
 				</ul>
-			</ul>
-		</div>
-		<div class="col">
-			<ul>
-				<li>Database</li>
+			</div>
+			<div class="col">
 				<ul>
-					<li>MongoDB</li>
-					<li>MySQL</li>
-					<li>Firebase</li>
+					<li>DevOps</li>
+					<ul>
+						<li>GitHub Actions</li>
+						<li>Docker</li>
+						<li>CI/CD pipeline</li>
+						<li>AWS</li>
+					</ul>
 				</ul>
-				<li>Testing</li>
+			</div>
+			<div class="col">
 				<ul>
-					<li>End to End</li>
-					<li>Component</li>
+					<li>Design and CMS</li>
+					<ul>
+						<li>WordPress</li>
+						<li>Figma</li>
+					</ul>
 				</ul>
-			</ul>
-		</div>
-		<div class="col">
-			<ul>
-				<li>DevOps</li>
-				<ul>
-					<li>GitHub Actions</li>
-					<li>Docker</li>
-					<li>CI/CD pipeline</li>
-					<li>AWS</li>
-				</ul>
-				<li>Node.js</li>
-				<ul>
-					<li>Express.js</li>
-				</ul>
-			</ul>
+			</div>
 		</div>
 	</div>
 </template>
@@ -70,6 +77,11 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.skill__wrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+}
 .skills {
 	display: flex;
 	max-width: 900px;

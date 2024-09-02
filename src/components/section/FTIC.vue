@@ -29,7 +29,7 @@
 			</div>
 		</div>
 		<div class="ftic">
-			<a class="button" href="https://shan-meals-sharing.azurewebsites.net/home" target="_blank">Meal App</a>
+			<a class="button" href="https://github.com/shanhaider23/masterclass-hyf-HYF-homework" target="_blank">Meal App</a>
 			<div class="expirience-job__list">
 				<div class="expirience-job__item">React</div>
 				<div class="expirience-job__item">C#/.NET</div>
@@ -38,7 +38,7 @@
 			</div>
 		</div>
 		<div class="ftic">
-			<a class="button" href="https://meal-sharing-shan.herokuapp.com/home" target="_blank">Meal Sharing App</a>
+			<a class="button" href="https://github.com/shanhaider23/meal-sharing" target="_blank">Meal Sharing App</a>
 			<div class="expirience-job__list">
 				<div class="expirience-job__item">React</div>
 				<div class="expirience-job__item">Node</div>
@@ -63,10 +63,11 @@
 			</div>
 		</div>
 		<div class="ftic">
-			<a class="button" href="https://shan-weather.netlify.app/" target="_blank">Shan Weather App </a>
+			<a class="button" href="https://weather-app-shan.vercel.app/" target="_blank">Weather App </a>
 			<div class="expirience-job__list">
-				<div class="expirience-job__item">JavaScript,</div>
-				<div class="expirience-job__item">HTML/CSS</div>
+				<div class="expirience-job__item">Vue3</div>
+				<div class="expirience-job__item">Vite</div>
+				<div class="expirience-job__item">CSS</div>
 			</div>
 		</div>
 		<div class="ftic">
