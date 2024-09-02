@@ -1,4 +1,4 @@
-# berman.xyz
+# shanehaider.me
 
 ## Project setup
 ```
