@@ -2,7 +2,7 @@
 	<div class="work">
 		<Company name="Render" post="Frontend Developer" :from="new Date(2022, 5)">
 			<li>Continuously develop dynamic and responsive user interfaces using Vue.js, React, and JavaScript.</li>
-			<li>Regularly leverage the Element UI to enhance the design and functionality of ongoing projects.</li>
+			<li>Consistently use Element UI to create visually appealing and user-friendly interfaces.</li>
 			<li>
 				Implemented and maintain new features on SaaS software using advanced Vue.js skills, resulting in a highly intuitive and user-friendly
 				interface that consistently receives praise from client companies for enhancing user engagement and satisfaction.
