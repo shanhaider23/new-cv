@@ -15,7 +15,11 @@
 					<ul>
 						<li>University of Oslo, Norway (Aug 2008 — Sep 2010)</li>
 					</ul>
-					<li>Online Courses</li>
+					<h1>Courses & Certifications</h1>
+					<li>Cypress App 101, Cypress Cloud 101</li>
+					<ul>
+						<li>Cypress.io</li>
+					</ul>
 					<li>Cypress End-to-End Testing</li>
 					<ul>
 						<li>Completed a 6-hour course led by Maximilian Schwarzmüller.</li>

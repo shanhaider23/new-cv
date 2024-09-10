@@ -5,10 +5,11 @@
 
 		<h2>Full Stack developer</h2>
 		<p>
-			Enthusiastic and detail-oriented Full-stack Developer with more than four years of demonstrated expertise in frontend development.
-			Well-versed in a multitude of technologies, frameworks, and libraries, including, but not limited to Vue.js, React, Next.js, TypeScript,
-			JavaScript, Node.js, CSS Frameworks, MySQL, MongoDB, Firebase, AWS, Git, and others.Ability to work as part of a team and work
-			independently. Passionate about continuous learning and staying up-to-date with the latest industry trends.
+			Experienced Full Stack Developer with 4+ years in the industry, proficient in both frontend and backend technologies including Vue.js,
+			React, Next.js, TypeScript, JavaScript, Node.js, CSS Frameworks, MySQL, MongoDB, Firebase, AWS, Git, and more. I have a proven track
+			record of developing scalable web applications, and integrating complex databases. My passion lies in creating efficient, robust, and
+			scalable applications that deliver seamless user experiences. My ability to collaborate effectively with cross-functional teams and my
+			passion for staying updated with the latest industry trends have been key drivers in my career.
 		</p>
 	</div>
 </template>
