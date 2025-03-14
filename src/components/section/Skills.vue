@@ -1,69 +1,10 @@
 <template>
-	<div class="skill__wrapper">
-		<div class="skills">
-			<div class="col">
-				<ul>
-					<li>FRONTEND DEVELOPMENT</li>
-					<ul>
-						<li>Vue.js</li>
-						<li>React</li>
-						<li>Next.js</li>
-						<li>JavaScript</li>
-						<li>ES6</li>
-						<li>TypeScript</li>
-						<li>CSS Preprocessors (SCSS, SASS, LESS)</li>
-						<li>CSS Frameworks (Bootstrap, Tailwind)</li>
-						<li>Component Libraries (Element UI, MUI, Quasar)</li>
-					</ul>
-				</ul>
-			</div>
-			<div class="col">
-				<ul>
-					<li>Backend Development</li>
-					<ul>
-						<li>Node.js, Express.js</li>
-					</ul>
-				</ul>
-			</div>
-		</div>
-		<div class="skills">
-			<div class="col">
-				<ul>
-					<li>Testing</li>
-					<ul>
-						<li>Cypress End to End</li>
-						<li>Cypress Component</li>
-					</ul>
-				</ul>
-			</div>
-			<div class="col">
-				<ul>
-					<li>Database</li>
-					<ul>
-						<li>MongoDB</li>
-						<li>MySQL</li>
-						<li>Firebase</li>
-					</ul>
-				</ul>
-			</div>
-			<div class="col">
-				<ul>
-					<li>DevOps</li>
-					<ul>
-						<li>GitHub Actions</li>
-						<li>Docker</li>
-						<li>CI/CD pipeline</li>
-						<li>AWS</li>
-					</ul>
-				</ul>
-			</div>
-			<div class="col">
-				<ul>
-					<li>Design and CMS</li>
-					<ul>
-						<li>WordPress</li>
-						<li>Figma</li>
-					</ul>
+	<div class="skills-wrapper">
+		<div class="skills-grid">
+			<div class="skill-category" v-for="(skills, category) in skillSet" :key="category">
+				<h3 class="category-title">{{ category }}</h3>
+				<ul class="skill-list">
+					<li v-for="skill in skills" :key="skill" class="skill-item">{{ skill }}</li>
 				</ul>
 			</div>
 		</div>
@@ -73,33 +14,81 @@
 <script>
 export default {
 	name: 'Skills',
+	data() {
+		return {
+			skillSet: {
+				'Frontend Development': [
+					'Vue.js',
+					'React',
+					'Next.js',
+					'JavaScript',
+					'TypeScript',
+					'SCSS, SASS, LESS',
+					'Bootstrap, Tailwind CSS',
+					'Element UI, MUI, Shadcn/ui',
+				],
+				'Backend Development': ['Node.js', 'Express.js', 'Python', 'Django', 'Flask'],
+				Testing: ['Cypress End to End', 'Cypress Component'],
+				Database: ['MongoDB', 'MySQL', 'Firebase'],
+				DevOps: ['GitHub Actions', 'Docker', 'CI/CD pipeline', 'AWS'],
+				'Design & CMS': ['WordPress', 'Figma'],
+			},
+		}
+	},
 }
 </script>
 
-<style scoped lang="scss">
-.skill__wrapper {
+<style scoped>
+.skills-wrapper {
 	display: flex;
-	flex-direction: column;
-	gap: 25px;
+	justify-content: center;
+	padding: 20px;
+	width: 100%;
 }
-.skills {
+
+.skills-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+	gap: 20px;
+	width: 100%;
+	max-width: 1100px;
+}
+
+.skill-category {
+	background: #fff;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	transition: transform 0.2s;
+	text-align: center;
+}
+
+.skill-category:hover {
+	transform: translateY(-5px);
+}
+
+.category-title {
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #333;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.skill-list {
+	list-style: none;
+	padding: 0;
 	display: flex;
-	max-width: 900px;
+	flex-wrap: wrap;
+	justify-content: center;
+}
 
-	.col {
-		flex: 1 0 0;
-	}
-
-	ul:last-child {
-		margin-bottom: 0;
-	}
-
-	@media screen and (max-width: 850px) {
-		display: block;
-
-		.col:not(:first-child) {
-			margin-top: 20px;
-		}
-	}
+.skill-item {
+	display: inline-flexbox;
+	background-color: #eece9a;
+	border-radius: 10px;
+	font-size: 1em;
+	margin: 5px;
+	padding: 5px 10px;
 }
 </style>

@@ -26,7 +26,7 @@
 					</ul>
 					<li>GitHub Actions - The Complete Guide</li>
 					<ul>
-						<li>Completed a 11-hour course led by Maximilian Schwarzmüller.</li>
+						<li>Completed an 11-hour course led by Maximilian Schwarzmüller.</li>
 					</ul>
 					<li>Docker & Kubernetes: The Practical Guide [2024 Edition]</li>
 					<ul>
@@ -40,7 +40,7 @@
 					<ul>
 						<li>Completed a three-month course offered by the Ministry of Science and Technology, Pakistan.</li>
 					</ul>
-					<li>Completer IT Support Specialist Course</li>
+					<li>Complete IT Support Specialist Course</li>
 					<ul>
 						<li>IT Foundation, USA</li>
 					</ul>
@@ -49,7 +49,7 @@
 		</div>
 		<div class="contact-info">
 			<h1>Contact</h1>
-			<p>Email: <a href="mailto:shan.haider@gmail.com">shan.haider@gmail.com</a>.</p>
+			<p>Email: <a href="mailto:shan.haider@gmail.com">shan.haider@gmail.com</a></p>
 			<p>Phone: +4591439592</p>
 		</div>
 	</div>
@@ -63,36 +63,66 @@ export default {
 
 <style scoped lang="scss">
 .contact {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 40px;
+	padding: 20px;
+
 	a {
-		color: inherit;
+		color: #2d6a4f;
+		font-weight: bold;
 		text-decoration: none;
+		transition: color 0.3s;
 
 		&:hover {
 			text-decoration: underline;
+			color: #1b4332;
 		}
 	}
-	.contact-info {
-		margin-top: 100px;
-	}
+}
+
+.contact-info {
+	text-align: center;
+	background: #e9f5ee;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.skills {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 900px;
+	background: #ffffff;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.col {
+	width: 100%;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+h1 {
+	color: #2d6a4f;
+	font-size: 1.5em;
+	margin-bottom: 10px;
+}
+
+@media screen and (max-width: 850px) {
 	.skills {
-		display: flex;
-		max-width: 900px;
+		padding: 15px;
+	}
 
-		.col {
-			flex: 1 0 0;
-		}
-
-		ul:last-child {
-			margin-bottom: 0;
-		}
-
-		@media screen and (max-width: 850px) {
-			display: block;
-
-			.col:not(:first-child) {
-				margin-top: 20px;
-			}
-		}
+	.contact {
+		gap: 20px;
 	}
 }
 </style>

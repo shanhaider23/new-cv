@@ -1,16 +1,17 @@
 <template>
 	<div class="welcome">
 		<Logo class="logo" />
-		<h1>Shan-e-Haider Bukhari</h1>
-
-		<h2>Full Stack developer</h2>
-		<p>
-			Experienced Full Stack Developer with 4+ years in the industry, proficient in both frontend and backend technologies including Vue.js,
-			React, Next.js, TypeScript, JavaScript, Node.js, CSS Frameworks, MySQL, MongoDB, Firebase, AWS, Git, and more. I have a proven track
-			record of developing scalable web applications, and integrating complex databases. My passion lies in creating efficient, robust, and
-			scalable applications that deliver seamless user experiences. My ability to collaborate effectively with cross-functional teams and my
-			passion for staying updated with the latest industry trends have been key drivers in my career.
-		</p>
+		<div>
+			<h1>Shan-e-Haider Bukhari</h1>
+			<h2>Senior Full Stack Developer</h2>
+			<p class="info-card">
+				With 5 years of experience spanning multiple industries, I specialize as a Frontend Developer with proficiency in backend technologies
+				and UI/UX design. I excel at crafting intuitive, visually appealing applications, producing maintainable and scalable code, and
+				implementing user-first design systems with a focus on quality and performance. My expertise includes optimizing codebases,
+				implementing clean coding practices, and refining design systems to deliver efficient and impactful solutions. Beyond my technical
+				expertise, I value patience and perseverance, staying calm under pressure, and striving for growth.
+			</p>
+		</div>
 	</div>
 </template>
 
@@ -37,9 +38,42 @@ export default {
 		margin-bottom: 32px;
 		width: 64px;
 	}
-
 	h1 {
-		font-size: 42px;
+		font-size: 45px;
+		color: #333;
+		margin-bottom: 10px;
+		font-weight: 600;
+		text-align: center;
+	}
+
+	h2 {
+		font-size: 35px;
+		color: #555;
+		margin-bottom: 16px;
+		font-weight: 500;
+		text-align: center;
+	}
+	.info-card {
+		padding: 32px;
+
+		background: white;
+		border-radius: 12px;
+		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+		overflow: hidden;
+		transition: transform 0.2s;
+		text-align: center;
+
+		&:hover {
+			transform: translateY(-5px);
+		}
+
+		p {
+			font-size: 25px;
+			color: #666;
+			line-height: 1.6;
+			font-family: 'Arial', sans-serif;
+			text-align: center;
+		}
 	}
 }
 </style>
