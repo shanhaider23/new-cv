@@ -1,6 +1,70 @@
 <template>
 	<div class="work">
-		<Company name="Render" post="Senior Frontend Developer" :from="new Date(2022, 4)">
+		<Company name="Danish Technical University" post="Full Stack Developer" :from="new Date(2025, 9)">
+			<li class="custom-list-item">Continuously develop dynamic and responsive user interfaces using Vue.js, React, and JavaScript.</li>
+			<li class="custom-list-item">Consistently use Element UI to create visually appealing and user-friendly interfaces.</li>
+			<li class="custom-list-item">
+				Implemented and maintain new features on SaaS software using advanced Vue.js and JavaScript skills, resulting in a highly intuitive
+				and user-friendly interface that consistently receives praise from client companies for enhancing user engagement and satisfaction.
+			</li>
+			<li class="custom-list-item">
+				Collaborated with Python (Django) backend services, handling API integration, troubleshooting, and refining business logic as needed.
+			</li>
+			<li class="custom-list-item">
+				Maintained and optimized existing GitHub Actions CI/CD pipelines and Docker-based environments, resolving deployment issues and
+				ensuring smooth operations.
+			</li>
+			<li class="custom-list-item">
+				Assisted with debugging and handling API integrations and data flow between frontend and backend services.
+			</li>
+			<li class="custom-list-item">
+				Conduct Cypress E2E and Component testing to ensure the reliability and accuracy of application functionalities.
+			</li>
+			<li class="custom-list-item">Identify and resolve errors and bugs to enhance and stabilize the user experience.</li>
+			<li class="custom-list-item">
+				Collaborate with cross-functional teams to deliver high-quality products, including documenting design specifications and features.
+			</li>
+			<li class="custom-list-item">Participate in code and pull request reviews to ensure code quality and adherence to best practices.</li>
+			<li class="custom-list-item">
+				Work within an Agile methodology, managing tasks and tracking progress using ClickUp, and contributing to sprint planning and
+				execution.
+			</li>
+
+			<div class="expirience-job__projects">
+				<a href="https://render.dk" target="_blank"
+					><span class="el-link__inner"
+						><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" style="width: 1em; margin-right: 0.25em">
+							<path
+								fill="currentColor"
+								d="M715.648 625.152 670.4 579.904l90.496-90.56c75.008-74.944 85.12-186.368 22.656-248.896-62.528-62.464-173.952-52.352-248.96 22.656L444.16 353.6l-45.248-45.248 90.496-90.496c100.032-99.968 251.968-110.08 339.456-22.656 87.488 87.488 77.312 239.424-22.656 339.456l-90.496 90.496zm-90.496 90.496-90.496 90.496C434.624 906.112 282.688 916.224 195.2 828.8c-87.488-87.488-77.312-239.424 22.656-339.456l90.496-90.496 45.248 45.248-90.496 90.56c-75.008 74.944-85.12 186.368-22.656 248.896 62.528 62.464 173.952 52.352 248.96-22.656l90.496-90.496 45.248 45.248zm0-362.048 45.248 45.248L398.848 670.4 353.6 625.152 625.152 353.6z"
+							></path></svg
+						>Render</span
+					></a
+				><a href="https://chesschamps.io/" target="_blank"
+					><span class="el-link__inner"
+						><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" style="width: 1em; margin-right: 0.25em">
+							<path
+								fill="currentColor"
+								d="M715.648 625.152 670.4 579.904l90.496-90.56c75.008-74.944 85.12-186.368 22.656-248.896-62.528-62.464-173.952-52.352-248.96 22.656L444.16 353.6l-45.248-45.248 90.496-90.496c100.032-99.968 251.968-110.08 339.456-22.656 87.488 87.488 77.312 239.424-22.656 339.456l-90.496 90.496zm-90.496 90.496-90.496 90.496C434.624 906.112 282.688 916.224 195.2 828.8c-87.488-87.488-77.312-239.424 22.656-339.456l90.496-90.496 45.248 45.248-90.496 90.56c-75.008 74.944-85.12 186.368-22.656 248.896 62.528 62.464 173.952 52.352 248.96-22.656l90.496-90.496 45.248 45.248zm0-362.048 45.248 45.248L398.848 670.4 353.6 625.152 625.152 353.6z"
+							></path></svg
+						>Chess Champs</span
+					></a
+				>
+			</div>
+			<div class="expirience-job__list">
+				<div class="expirience-job__item">React</div>
+				<div class="expirience-job__item">VueJS 2/3</div>
+				<div class="expirience-job__item">JavaScript</div>
+				<div class="expirience-job__item">Python</div>
+				<div class="expirience-job__item">Django</div>
+				<div class="expirience-job__item">SCSS</div>
+				<div class="expirience-job__item">HTML</div>
+				<div class="expirience-job__item">Gulp</div>
+				<div class="expirience-job__item">Git</div>
+				<div class="expirience-job__item">Cypress</div>
+			</div>
+		</Company>
+		<Company name="Render" post="Senior Frontend Developer" :from="new Date(2022, 4)" :to="new Date(2025, 9)">
 			<li class="custom-list-item">Continuously develop dynamic and responsive user interfaces using Vue.js, React, and JavaScript.</li>
 			<li class="custom-list-item">Consistently use Element UI to create visually appealing and user-friendly interfaces.</li>
 			<li class="custom-list-item">

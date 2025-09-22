@@ -1,0 +1,20 @@
+# Development Dockerfile with hot reloading
+FROM node:14
+
+# Set working directory
+WORKDIR /app
+
+# Copy package.json and package-lock.json
+COPY package*.json ./
+
+# Install dependencies
+RUN npm install
+
+# Copy application code
+COPY . .
+
+# Expose port for Vue dev server
+EXPOSE 8080
+
+# Start Vue development server with hot reloading
+CMD ["npm", "run", "serve"]
