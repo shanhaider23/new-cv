@@ -6,7 +6,7 @@ help:
 	@echo ""
 	@echo "Production Commands:"
 	@echo "  make build     - Build the Docker image"
-	@echo "  make up        - Start the application (build if needed)"
+	@echo "  make up        - Start the application (accessible at http://localhost:8080)"
 	@echo "  make down      - Stop and remove containers"
 	@echo "  make restart   - Restart the application"
 	@echo "  make logs      - Show application logs"
@@ -16,7 +16,7 @@ help:
 	@echo "  make build-dist - Build and extract dist folder to local machine"
 	@echo ""
 	@echo "Development Commands (Hot Reloading):"
-	@echo "  make dev       - Start development server with hot reloading"
+	@echo "  make dev       - Start development server (accessible at http://localhost:3000)"
 	@echo "  make dev-down  - Stop development server"
 	@echo "  make dev-restart - Restart development server"
 	@echo "  make dev-logs  - Show development server logs"
@@ -29,8 +29,8 @@ build:
 # Start the application
 up:
 	@echo "Starting the CV application..."
-	docker-compose up -d
-	@echo "Application is running at http://localhost:8080"
+	docker-compose up -d cv-app
+	@echo "Production application is running at http://localhost:8080"
 
 # Stop the application
 down:
@@ -65,7 +65,7 @@ status:
 dev:
 	@echo "Starting development server with hot reloading..."
 	docker-compose up -d cv-dev
-	@echo "Development server is running at http://localhost:8080"
+	@echo "Development server is running at http://localhost:3000"
 	@echo "Code changes will be automatically reflected!"
 
 # Stop development server
